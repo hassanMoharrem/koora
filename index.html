@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="theme-color" content="#000000"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--load all styles for font aswesome -->
+
+    <!-- My own style -->
+    <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<section class="w-100">
+    <div class="p-20 bg-dark"></div>
+    <div>
+        <nav class="py-2 position-relative end-0 w-100 px-5 bg-main">
+            <div class="row position-relative py-1 w-100 mx-auto">
+                <div class="col-md-3 my-auto">
+                    <img src="assets/images/logo.png" class="d-inline-block ms-1" width="70px" alt="">
+                    <div class="position-absolute start-0 top-0 mx-2 my-2 d-block d-md-none">
+                        <i class="fas fa-list p-2 text-white bg-modal border border-muted bord rounded-2 shadow-sm btn open-left"></i>
+                    </div>
+                </div>
+                <div class="col-md-6  my-auto text-center">
+                    <ul class="list-unstyled m-0 p-0 list-drop">
+                        <li class="li-head">
+                            <img src="assets/images/logo.png" class="d-inline-block d-md-none ms-1" width="70px" alt="">
+                        </li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">الرئيسية</a>
+                        </li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">فحص
+                            النتائج</a></li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">الجوائز</a>
+                        </li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">الفائزون</a>
+                        </li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">اتصل
+                            بنا</a></li>
+                        <li class="li-head d-inline-block d-md-none mx-3 text-white h5 mb-0">
+                            <a href="" class="text-white px-3"><i class="fas fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 my-auto text-start d-none d-md-inline-block">
+                    <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" class="text-white px-3"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+<section class="position-relative">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="position-relative">
+                    <img src="assets/images/slide.jpg" class="d-block w-100 cover" height="500px" alt="...">
+                    <div class="w-100 bg-overlay position-absolute top-0 end-0 h-100">
+                        <div class="w-75 w-90 m-50">
+                            <h2 class="text-white">توقع معنا كأس العالم <img src="assets/images/logo.png" width="80px"
+                                                                             class="d-inline-block mx-2" alt="">في قطر
+                                <span class="h6 mx-2">واكسب</span></h2>
+                            <h6 class="text-white mb-4">معنا العديد من الجوائز والمفاجئات</h6>
+                            <a href=""><span
+                                    class="bg-main text-white sp-arrow-up-word pe-3 ps-4 py-2">توقع معنا !</span><span
+                                    class=" bg-white px-3 py-2 align-middle sp-arrow-up"><i
+                                    class="fas fa-arrow-up text-main  arrow-up"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="position-relative">
+                    <img src="assets/images/slide.jpg" class="d-block w-100 cover" height="500px" alt="...">
+                    <div class="w-100 bg-overlay position-absolute top-0 end-0 h-100">
+                        <div class="w-75 w-90 m-50">
+                            <h2 class="text-white">توقع معنا كأس العالم <img src="assets/images/logo.png" width="80px"
+                                                                             class="d-inline-block mx-2" alt="">في قطر
+                                <span class="h6 mx-2">واكسب</span></h2>
+                            <h6 class="text-white mb-4">معنا العديد من الجوائز والمفاجئات</h6>
+                            <a href=""><span
+                                    class="bg-main text-white sp-arrow-up-word pe-3 ps-4 py-2">توقع معنا !</span><span
+                                    class=" bg-white px-3 py-2 align-middle sp-arrow-up"><i
+                                    class="fas fa-arrow-up text-main  arrow-up"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="position-relative">
+                    <img src="assets/images/slide.jpg" class="d-block w-100 cover" height="500px" alt="...">
+                    <div class="w-100 bg-overlay position-absolute top-0 end-0 h-100">
+                        <div class="w-75 w-90 m-50">
+                            <h2 class="text-white">توقع معنا كأس العالم <img src="assets/images/logo.png" width="80px"
+                                                                             class="d-inline-block mx-2" alt="">في قطر
+                                <span class="h6 mx-2">واكسب</span></h2>
+                            <h6 class="text-white mb-4">معنا العديد من الجوائز والمفاجئات</h6>
+                            <a href=""><span
+                                    class="bg-main text-white sp-arrow-up-word pe-3 ps-4 py-2">توقع معنا !</span><span
+                                    class=" bg-white px-3 py-2 align-middle sp-arrow-up"><i
+                                    class="fas fa-arrow-up text-main  arrow-up"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="position-absolute top-0 start-0 m-2 m-md-3">
+        <h6 class="d-inline-block text-white mx-2">تنتهي في : </h6>
+        <ul class="d-inline-block cd100">
+            <li id="days" class="mx-1 d-inline-block text-center">
+                <div class="days bg-white text-dark p-2 rounded-3 h5  font-16 ">00</div>
+            </li>
+            <li id="hours" class="mx-1 d-inline-block text-center">
+                <div class="hours bg-white text-dark p-2 rounded-3 h5 font-16">00</div>
+            </li>
+            <li id="minutes" class="mx-1 d-inline-block text-center">
+                <div class="minutes bg-white text-dark p-2 rounded-3 h5 font-16">00</div>
+            </li>
+            <li id="seconds" class="mx-1 d-inline-block text-center">
+                <div class="seconds bg-white text-dark p-2 rounded-3 h5 font-16">00</div>
+            </li>
+        </ul>
+    </div>
+    <div class="ms-4">
+        <img src="assets/images/ronaldo.png" class="position-absolute bottom-0 start-20 img-1" width="290px" alt="">
+        <img src="assets/images/ramos.png" class="position-absolute bottom-0 start-n-30 img-2" width="310px" alt="">
+        <img src="assets/images/levarbol.png" class="position-absolute bottom-0 start-10 img-3" width="300px" alt="">
+    </div>
+</section>
+<section>
+    <div class="bg-link p-2">
+        <div class="row w-100 mx-auto">
+            <div class="col-md-6 my-2 my-md-auto">
+                <div class="m-50">
+                    <h2 class="text-dark mb-3">توقع معنا كأس العالم في قطر </h2>
+                    <h6 class="text-dark mb-4">واكسب معنا العديد من الجوائز والمفاجئات</h6>
+                    <a href="" class="bg-main text-white rounded-2 px-4 py-2">توقع معنا !</a>
+                </div>
+            </div>
+            <div class="col-md-6 my-2 my-md-auto">
+                <img src="assets/images/cup.png" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="position-relative">
+            <div class="row justify-content-center w-100 mx-auto">
+                <div class="col-md-8">
+                    <div class="text-center border my-4 p-4 shadow-sm rounded-30">
+                        <h3 class="border-bottom pb-2 border-2 border-main text-main d-inline-block">تواصل معنا</h3>
+
+                        <form action="">
+                            <div class="row mt-1 mt-md-3">
+                                <div class="col-md-6 my-2 my-md-auto">
+                                    <div class="mb-2 position-relative">
+                                        <input type="text" class="form-control border  bg-light py-2 pe-5" id="name"
+                                               placeholder="الإسم">
+                                        <img src="assets/images/Vector.png" width="18px"
+                                             class="position-absolute top-0 end-0 m-20 text-muted fas fa-user" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 my-2 my-md-auto">
+                                    <div class="mb-2 position-relative">
+                                        <input type="number" class="form-control border  bg-light py-2 pe-5" id="number"
+                                               placeholder="رقم الهاتف">
+                                        <img src="assets/images/Vector(1).png" width="18px"
+                                             class="position-absolute top-0 end-0 m-20 text-muted fas fa-user" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 my-2">
+                                    <div class="mb-2 position-relative">
+                                        <textarea name="" class="form-control border  bg-light py-2 pe-5 height"
+                                                  placeholder="الرسالة"></textarea>
+                                        <img src="assets/images/Vector(2).png" width="18px"
+                                             class="position-absolute top-0 end-0 m-20 text-muted fas fa-user" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 my-2">
+                                    <div class="mb-2 position-relative">
+                                        <input type="email" class="form-control border  bg-light py-2 pe-5" id="email"
+                                               placeholder="البريد الإلكتروني">
+                                        <img src="assets/images/Vector(3).png" width="18px"
+                                             class="position-absolute top-0 end-0 m-20 text-muted fas fa-user" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 text-center">
+                                    <button class="btn px-5 py-2 rounded-2 bg-main text-white">إرسال</button>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+</section>
+<footer>
+    <div class="bg-main mt-5 py-5">
+        <div class="mx-50">
+            <div class="row">
+                <div class="col-md-3 my-3 my-md-auto">
+                    <img src="assets/images/logo.png" width="150px" alt="">
+                </div>
+                <div class="col-md-6 my-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-white mb-3">منيو</h6>
+                            <ul class="list-unstyled mt-2">
+                                <li class="mb-2 text-white"><a href="">الرئيسية</a></li>
+                                <li class="mb-2 text-white"><a href="">فحص النتائج</a></li>
+                                <li class="mb-2 text-white"><a href="">الفائزون</a></li>
+                                <li class="mb-2 text-white"><a href="">اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-white mb-3">روابط مهمة</h6>
+                            <ul class="list-unstyled mt-2">
+                                <li class="mb-2 text-white"><a href="">من نحن</a></li>
+                                <li class="mb-2 text-white"><a href="">من نحن</a></li>
+                                <li class="mb-2 text-white"><a href="">الشروط وسياسة النزاهة</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 my-3">
+                    <h6 class="text-white mb-3">انضم لنا</h6>
+                    <form action="">
+                        <input type="text" class="form-control border-0 py-2 w-70 d-inline-block"
+                               placeholder="البريد الإلكتروني">
+                        <button type="submit" class="d-inline-block btn btn-sm bg-dark text-white rounded-3 px-3 py-2">
+                            إرسال
+                        </button>
+                    </form>
+                    <div class="m-2">
+                        <a href=""><img src="assets/images/Vector(4).png" width="15px" class="mx-1" alt=""></a>
+                        <a href=""><img src="assets/images/Vector(5).png" width="15px" class="mx-1" alt=""></a>
+                        <a href=""><img src="assets/images/Vector(6).png" width="15px" class="mx-1" alt=""></a>
+                        <a href=""><img src="assets/images/Vector(7).png" width="15px" class="mx-1" alt=""></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-10">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">رقم الإشتراك</h5>
+                <button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="mb-2 position-relative">
+                        <input type="text" class="form-control border  bg-light py-2 pe-5" id="name"
+                               placeholder="رقم الإشتراك">
+                        <img src="assets/images/Vector.png" width="18px"
+                             class="position-absolute top-0 end-0 m-20 text-muted fas fa-user" alt="">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">تسجيل</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript; choose one of the two! -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+<script src="assets/countdowntime/moment.min.js"></script>
+<script src="assets/countdowntime/moment-timezone.min.js"></script>
+<script src="assets/countdowntime/moment-timezone-with-data.min.js"></script>
+<script src="assets/countdowntime/countdowntime.js"></script>
+<script>
+    $(window).ready(function () {
+        $('.open-left').click(function () {
+            $('.list-drop').toggleClass('menu-sm');
+        })
+    })
+    $('.cd100').countdown100({
+        /*Set Endtime here*/
+        /*Endtime must be > current time*/
+        endtimeYear: 2022,
+        endtimeMonth: 5,
+        endtimeDate: 26,
+        endtimeHours: 0,
+        endtimeMinutes: 0,
+        endtimeSeconds: 0,
+        timeZone: ""
+        // ex:  timeZone: "America/New_York"
+        //go to " http://momentjs.com/timezone/ " to get timezone
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="theme-color" content="#000000"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--load all styles for font aswesome -->
+
+    <!-- My own style -->
+    <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<section class="w-100">
+    <div class="p-20 bg-dark"></div>
+    <div>
+        <nav class="py-2 position-relative end-0 w-100 px-5 bg-main">
+            <div class="row position-relative py-1 w-100 mx-auto">
+                <div class="col-md-3 my-auto">
+                    <img src="assets/images/logo.png" class="d-inline-block ms-1" width="70px" alt="">
+                    <div class="position-absolute start-0 top-0 mx-2 my-2 d-block d-md-none">
+                        <i class="fas fa-list p-2 text-white bg-modal border border-muted bord rounded-2 shadow-sm btn open-left"></i>
+                    </div>
+                </div>
+                <div class="col-md-6  my-auto text-center">
+                    <ul class="list-unstyled m-0 p-0 list-drop">
+                        <li class="li-head">
+                            <img src="assets/images/logo.png" class="d-inline-block d-md-none ms-1" width="70px" alt="">
+                        </li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">الرئيسية</a>
+                        </li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">فحص
+                            النتائج</a></li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">الجوائز</a>
+                        </li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">الفائزون</a>
+                        </li>
+                        <li class="li-head d-inline-block mx-3 text-white h5 mb-0"><a href="#" class="text-white">اتصل
+                            بنا</a></li>
+                        <li class="li-head d-inline-block d-md-none mx-3 text-white h5 mb-0">
+                            <a href="" class="text-white px-3"><i class="fas fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 my-auto text-start d-none d-md-inline-block">
+                    <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" class="text-white px-3"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="multisteps-form my-5 w-100 ">
+            <!--progress bar-->
+            <div class="row justify-content-center">
+                <div class="col-md-12 my-5">
+                    <div class="multisteps-form__progress">
+                        <button class="multisteps-form__progress-btn p-2 rounded-circle js-active" type="button" title="User Info">
+                            <span class="position-relative z-100 h2 mb-0">1</span>
+                            <span class="text-muted d-block pt-3 h6 mb-0">دور 32</span>
+                        </button>
+                        <button class="multisteps-form__progress-btn p-2 rounded-circle" type="button" title="Address">
+                            <span class="position-relative z-100 h2 mb-0">2</span>
+                            <span class="text-muted d-block pt-3 h6 mb-0">دور 32</span>
+                        </button>
+                        <button class="multisteps-form__progress-btn p-2 rounded-circle" type="button" title="Order Info">
+                            <span class="position-relative z-100 h2 mb-0">3</span>
+                            <span class="text-muted d-block pt-3 h6 mb-0">دور 32</span>
+                        </button>
+                        <button class="multisteps-form__progress-btn p-2 rounded-circle" type="button" title="Comments">
+                            <span class="position-relative z-100 h2 mb-0">4</span>
+                            <span class="text-muted d-block pt-3 h6 mb-0">دور 32</span>
+                        </button>
+                        <button class="multisteps-form__progress-btn p-2 rounded-circle" type="button" title="last">
+                            <span class="position-relative z-100 h2 mb-0">5</span>
+                            <span class="text-muted d-block pt-3 h6 mb-0">دور 32</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--form panels-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="multisteps-form__form">
+                            <!--single form panel-->
+                            <div class="multisteps-form__panel js-active" data-animation="scaleIn">
+                                <div class="row w-100 mx-auto justify-content-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الأولى</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الثاني</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الثالثة</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row mb-5 justify-content-start">
+                                            <div class="button-row d-flex mt-4 col-12">
+                                                <button class="btn bg-main text-white me-auto js-btn-next" type="button" title="Next">حفظ ومتابعة</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single form panel-->
+                            <div class="multisteps-form__panel" data-animation="scaleIn">
+                                <div class="row w-100 mx-auto justify-content-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الأولى</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الثاني</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الثالثة</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row mb-5">
+                                            <div class="button-row d-flex mt-4 col-12 justify-content-between">
+                                                <button class="btn btn-primary js-btn-prev" type="button" title="Prev">السابق</button>
+                                                <button class="btn bg-main text-white me-auto js-btn-next" type="button" title="Next">حفظ و متابعة</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single form panel-->
+                            <div class="multisteps-form__panel" data-animation="scaleIn">
+                                <div class="row w-100 mx-auto justify-content-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الأولى</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الثاني</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">المجموعة الثالثة</h5>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الأول</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault1">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault1">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                        <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفريق الثاني</span>
+                                                        <div class="form-check position-relative cursor">
+                                                            <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                   type="checkbox" id="flexRadioDefault2">
+                                                            <label class="form-check-label d-flex cursor cursor text-center"
+                                                                   for="flexRadioDefault2">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row mb-5">
+                                            <div class="button-row d-flex mt-4 col-12 justify-content-between">
+                                                <button class="btn btn-primary js-btn-prev" type="button" title="Prev">السابق</button>
+                                                <button class="btn bg-main text-white me-auto js-btn-next" type="button" title="Next">حفظ و متابعة</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single form panel-->
+                            <div class="multisteps-form__panel" data-animation="scaleIn">
+                                <div class="row w-100 mx-auto justify-content-center">
+                                    <div class="col-md-10 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">نصف النهائي</h5>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                            <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الى النهائي</span>
+                                                            <div class="form-check position-relative cursor">
+                                                                <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                       type="checkbox" id="flexRadioDefault12">
+                                                                <label class="form-check-label d-flex cursor cursor text-center"
+                                                                       for="flexRadioDefault12">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                                </label>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                            <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الى النهائي</span>
+                                                            <div class="form-check position-relative cursor">
+                                                                <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                       type="checkbox" id="flexRadioDefault13">
+                                                                <label class="form-check-label d-flex cursor cursor text-center"
+                                                                       for="flexRadioDefault13">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                                </label>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                            <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الى النهائي</span>
+                                                            <div class="form-check position-relative cursor">
+                                                                <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                       type="checkbox" id="flexRadioDefault14">
+                                                                <label class="form-check-label d-flex cursor cursor text-center"
+                                                                       for="flexRadioDefault14">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                                </label>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                            <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الى النهائي</span>
+                                                            <div class="form-check position-relative cursor">
+                                                                <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                       type="checkbox" id="flexRadioDefault15">
+                                                                <label class="form-check-label d-flex cursor cursor text-center"
+                                                                       for="flexRadioDefault15">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                                </label>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row mb-5">
+                                            <div class="button-row d-flex mt-4 col-12 justify-content-between">
+                                                <button class="btn btn-primary js-btn-prev" type="button" title="Prev">السابق</button>
+                                                <button class="btn bg-main text-white me-auto js-btn-next" type="button" title="Next">حفظ و متابعة</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single form panel-->
+                            <div class="multisteps-form__panel" data-animation="scaleIn">
+                                <div class="row w-100 mx-auto justify-content-center">
+                                    <div class="col-md-10 mb-3">
+                                        <div class="bg-light rounded-3 p-3">
+                                            <h5 class="text-center mb-3">النهائي</h5>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                            <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفائز</span>
+                                                            <div class="form-check position-relative cursor">
+                                                                <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                       type="checkbox" id="flexRadioDefault10">
+                                                                <label class="form-check-label d-flex cursor cursor text-center"
+                                                                       for="flexRadioDefault10">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                                </label>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <div class="p-2 bg-white rounded-top-bottom-30 position-relative cursor border-transparent shadow-sm mb-2 rounded-3">
+                                                            <span class="bg-main px-2 py-1 rounded-3-bottom name text-white position-absolute top-0 start-0 d-none">الفائز</span>
+                                                            <div class="form-check position-relative cursor">
+                                                                <input class="form-check-input position-absolute end-0 top-15 ms-1" name="check"
+                                                                       type="checkbox" id="flexRadioDefault11">
+                                                                <label class="form-check-label d-flex cursor cursor text-center"
+                                                                       for="flexRadioDefault11">
+                        <span class="w-100 text-end mx-1 px-4 py-1 d-block">
+                            <img src="assets/images/logo.png"
+                                 class="rounded-circle d-inline-block bg-white border img-contain shadow-sm" alt=""
+                                 width="65px" height="65px">
+                            <span class="me-1 align-middle d-inline-block">
+                                <span class="my-1 h4">منتخب البرازيل</span>
+                            </span>
+                        </span>
+                                                                </label>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row mb-5">
+                                            <div class="button-row d-flex mt-4 col-12 justify-content-between">
+                                                <button class="btn btn-primary js-btn-prev" type="button" title="Prev">السابق</button>
+                                                <button class="btn bg-main text-white me-auto js-btn-next" type="button" title="Next">حفظ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="bg-main mt-5 py-5">
+        <div class="mx-50">
+            <div class="row">
+                <div class="col-md-3 my-3 my-md-auto">
+                    <img src="assets/images/logo.png" width="150px" alt="">
+                </div>
+                <div class="col-md-6 my-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-white mb-3">منيو</h6>
+                            <ul class="list-unstyled mt-2">
+                                <li class="mb-2 text-white"><a href="">الرئيسية</a></li>
+                                <li class="mb-2 text-white"><a href="">فحص النتائج</a></li>
+                                <li class="mb-2 text-white"><a href="">الفائزون</a></li>
+                                <li class="mb-2 text-white"><a href="">اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-white mb-3">روابط مهمة</h6>
+                            <ul class="list-unstyled mt-2">
+                                <li class="mb-2 text-white"><a href="">من نحن</a></li>
+                                <li class="mb-2 text-white"><a href="">من نحن</a></li>
+                                <li class="mb-2 text-white"><a href="">الشروط وسياسة النزاهة</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 my-3">
+                    <h6 class="text-white mb-3">انضم لنا</h6>
+                    <form action="">
+                        <input type="text" class="form-control border-0 py-2 w-70 d-inline-block"
+                               placeholder="البريد الإلكتروني">
+                        <button type="submit" class="d-inline-block btn btn-sm bg-dark text-white rounded-3 px-3 py-2">
+                            إرسال
+                        </button>
+                    </form>
+                    <div class="m-2">
+                        <a href=""><img src="assets/images/Vector(4).png" width="15px" class="mx-1" alt=""></a>
+                        <a href=""><img src="assets/images/Vector(5).png" width="15px" class="mx-1" alt=""></a>
+                        <a href=""><img src="assets/images/Vector(6).png" width="15px" class="mx-1" alt=""></a>
+                        <a href=""><img src="assets/images/Vector(7).png" width="15px" class="mx-1" alt=""></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-10">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">رقم الإشتراك</h5>
+                <button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="mb-2 position-relative">
+                        <input type="text" class="form-control border  bg-light py-2 pe-5" id="name"
+                               placeholder="رقم الإشتراك">
+                        <img src="assets/images/Vector.png" width="18px"
+                             class="position-absolute top-0 end-0 m-20 text-muted fas fa-user" alt="">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">تسجيل</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Optional JavaScript; choose one of the two! -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+<script>
+    $(window).ready(function () {
+        $('.open-left').click(function () {
+            $('.list-drop').toggleClass('menu-sm');
+        })
+    })
+</script>
+<script>
+    $('.form-check-input').change(function () {
+        $(this).parent().parent().toggleClass('border border-main');
+        $(this).parent().parent().toggleClass('active-ch');
+    });
+</script>
+<script>
+
+    const DOMstrings = {
+        stepsBtnClass: 'multisteps-form__progress-btn',
+        stepsBtns: document.querySelectorAll(`.multisteps-form__progress-btn`),
+        stepsBar: document.querySelector('.multisteps-form__progress'),
+        stepsForm: document.querySelector('.multisteps-form__form'),
+        stepsFormTextareas: document.querySelectorAll('.multisteps-form__textarea'),
+        stepFormPanelClass: 'multisteps-form__panel',
+        stepFormPanels: document.querySelectorAll('.multisteps-form__panel'),
+        stepPrevBtnClass: 'js-btn-prev',
+        stepNextBtnClass: 'js-btn-next'
+    };
+
+    //remove class from a set of items
+    const removeClasses = (elemSet, className) => {
+        elemSet.forEach(elem => {
+            elem.classList.remove(className);
+        });
+    };
+    //return exect parent node of the element
+    const findParent = (elem, parentClass) => {
+        let currentNode = elem;
+        while (!currentNode.classList.contains(parentClass)) {
+            currentNode = currentNode.parentNode;
+        }
+        return currentNode;
+    };
+    //get active button step number
+    const getActiveStep = elem => {
+        return Array.from(DOMstrings.stepsBtns).indexOf(elem);
+    };
+    //set all steps before clicked (and clicked too) to active
+    const setActiveStep = activeStepNum => {
+        //remove active state from all the state
+        removeClasses(DOMstrings.stepsBtns, 'js-active');
+        //set picked items to active
+        DOMstrings.stepsBtns.forEach((elem, index) => {
+            if (index <= activeStepNum) {
+                elem.classList.add('js-active');
+            }
+        });
+    };
+    //get active panel
+    const getActivePanel = () => {
+        let activePanel;
+        DOMstrings.stepFormPanels.forEach(elem => {
+            if (elem.classList.contains('js-active')) {
+                activePanel = elem;
+            }
+        });
+        return activePanel;
+    };
+    //open active panel (and close unactive panels)
+    const setActivePanel = activePanelNum => {
+        //remove active class from all the panels
+        removeClasses(DOMstrings.stepFormPanels, 'js-active');
+        //show active panel
+        DOMstrings.stepFormPanels.forEach((elem, index) => {
+            if (index === activePanelNum) {
+                elem.classList.add('js-active');
+                setFormHeight(elem);
+            }
+        });
+    };
+    //set form height equal to current panel height
+    const formHeight = activePanel => {
+        const activePanelHeight = activePanel.offsetHeight;
+        DOMstrings.stepsForm.style.height = `${activePanelHeight}px`;
+    };
+    const setFormHeight = () => {
+        const activePanel = getActivePanel();
+        formHeight(activePanel);
+    };
+    //STEPS BAR CLICK FUNCTION
+    DOMstrings.stepsBar.addEventListener('click', e => {
+        //check if click target is a step button
+        const eventTarget = e.target;
+        if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
+            return;
+        }
+        //get active button step number
+        const activeStep = getActiveStep(eventTarget);
+        //set all steps before clicked (and clicked too) to active
+        setActiveStep(activeStep);
+        //open active panel
+        setActivePanel(activeStep);
+    });
+    //PREV/NEXT BTNS CLICK
+    DOMstrings.stepsForm.addEventListener('click', e => {
+        const eventTarget = e.target;
+        //check if we clicked on `PREV` or NEXT` buttons
+        if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`))) {
+            return;
+        }
+        //find active panel
+        const activePanel = findParent(eventTarget, `${DOMstrings.stepFormPanelClass}`);
+        let activePanelNum = Array.from(DOMstrings.stepFormPanels).indexOf(activePanel);
+        //set active step and active panel onclick
+        if (eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`)) {
+            activePanelNum--;
+        } else {
+            activePanelNum++;
+        }
+        setActiveStep(activePanelNum);
+        setActivePanel(activePanelNum);
+    });
+    //SETTING PROPER FORM HEIGHT ONLOAD
+    window.addEventListener('load', setFormHeight, false);
+    //SETTING PROPER FORM HEIGHT ONRESIZE
+    window.addEventListener('resize', setFormHeight, false);
+</script>
+</body>
+</html>
