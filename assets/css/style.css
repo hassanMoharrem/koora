@@ -318,6 +318,16 @@ input[type="checkbox"]:checked::before {
     display: block;
     margin-bottom: 50px !important;
 }
+.bg-card{
+    background: #A91E49;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.bg-F0F0F0{
+    background-color: #F0F0F0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
 @media (max-width: 768px) {
     .m-55{
         margin: 20px !important;
@@ -374,9 +384,19 @@ input[type="checkbox"]:checked::before {
         width: 90% !important;
     }
     .font-14{
-        font-size: 19px;
+        font-size: 14px;
     }
     .font-12{
         font-size: 14px;
+    }
+    .form-check-input{
+        padding: 6px;
+    }
+    .top-15{
+        top: 5px;
+    }
+    .img-contain{
+        width: 25px;
+        height: 25px;
     }
 }
