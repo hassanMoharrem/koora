@@ -376,4 +376,7 @@ input[type="checkbox"]:checked::before {
     .font-14{
         font-size: 19px;
     }
+    .font-12{
+        font-size: 14px;
+    }
 }
