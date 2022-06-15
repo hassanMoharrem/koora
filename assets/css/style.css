@@ -170,12 +170,17 @@ input[type="checkbox"]::before {
 }
 .rounded-3-bottom{
     border-bottom-right-radius:8px ;
+}.rounded-3-bottom-left{
+    border-bottom-left-radius:8px ;
 }
 .active-ch .name{
     display: block !important;
 }
 .border-main{
     border-color: #A91E49 !important;
+}
+.font-11{
+    font-size: 14px;
 }
 input[type="checkbox"]:checked::before {
     transform: scale(1);
@@ -199,6 +204,9 @@ input[type="checkbox"]:checked::before {
     background-color: transparent;
     outline: none !important;
     cursor: pointer;
+}
+.true-team{
+    border-color: #198754 !important;
 }
 @media (min-width: 500px) {
     .multisteps-form__progress-btn {
@@ -394,7 +402,7 @@ input[type="checkbox"]:checked::before {
         width: 90% !important;
     }
     .font-14{
-        font-size: 13px;
+        font-size: 12px;
     }
     .font-12{
         font-size: 14px;
@@ -416,5 +424,8 @@ input[type="checkbox"]:checked::before {
     .min-h{
         /*min-height: 100vh;*/
         padding-bottom: 0px !important;
+    }
+    .font-11{
+        font-size: 10px;
     }
 }
