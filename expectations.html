@@ -1641,9 +1641,15 @@
     };
     //set form height equal to current panel height
     const formHeight = activePanel => {
-        const activePanelHeight = activePanel.offsetHeight;
-        DOMstrings.stepsForm.style.height = `${activePanelHeight}px`;
+        var activePanelHeight = $(".js-active").map(function ()
+        {
+            return $(this).height();
+        }).get();
+
+        maxHeight = Math.max.apply(null, activePanelHeight);
+        DOMstrings.stepsForm.style.height = `${maxHeight}px`;
     };
+
     const setFormHeight = () => {
         const activePanel = getActivePanel();
         formHeight(activePanel);
