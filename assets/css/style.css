@@ -259,7 +259,7 @@ input[type="checkbox"]:checked::before {
 }
 .multisteps-form__form {
     position: relative;
-    min-height: 100vh !important;
+    /*min-height: 60vh !important;*/
 }
 .multisteps-form__panel {
     position: relative;
@@ -269,12 +269,14 @@ input[type="checkbox"]:checked::before {
     height: 0;
     opacity: 0;
     z-index: -1;
+    display: none;
 }
 .multisteps-form__panel.js-active {
     height: auto;
     position: absolute !important;
     opacity: 1;
     z-index: 1;
+    display: block;
 }
 .multisteps-form__panel[data-animation="scaleIn"] {
     -webkit-transform: scale(0.9);
@@ -425,7 +427,7 @@ input[type="checkbox"]:checked::before {
     }
     .min-h{
         /*min-height: 100vh;*/
-        padding-bottom: 200px !important;
+        padding-bottom: 0 !important;
     }
     .font-11{
         font-size: 9px;
